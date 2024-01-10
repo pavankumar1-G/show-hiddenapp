@@ -1,0 +1,77 @@
+/* Write your CSS here */
+.background-container {
+  height: 100vh;
+  background: linear-gradient(to right, #fa7257, #fc63a7);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.heading {
+  font-size: 35px;
+  font-family: Roboto;
+  font-weight: 600;
+  color: #ffffff;
+}
+.names-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.first-name-con {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.last-name-con {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  height: 36px;
+  width: 156px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  color: #dd1264;
+  border-width: 0;
+  margin: 20px;
+}
+.show-hided-cards {
+  height: 100px;
+  width: 200px;
+  border-radius: 10px;
+  background-color: #fddddb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.names {
+  color: #000000;
+  font-size: 20px;
+  font-family: Roboto;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 45px;
+  }
+  .names-container {
+    flex-direction: row;
+  }
+  .show-hided-cards {
+    margin: 10px;
+  }
+  .first-name-con {
+    margin-bottom: 50px;
+  }
+  .last-name-con {
+    margin-bottom: 50px;
+  }
+  button {
+    margin: 20px;
+  }
+}
